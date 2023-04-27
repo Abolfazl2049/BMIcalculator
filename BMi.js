@@ -5,10 +5,9 @@ function myFunction (){
     let result = Math.round(W/H *10000);
     let Gender1 = document.querySelector('input[name="myRadios"]:checked').value;
     let age = document.getElementById("age").value;
-    if (result <= 10 || result >= 30 || age > 100){
+    if (result <= 8 || result >= 45 || age > 110){
     result = 'get out here fucking clown';
    return document.getElementById("p2").innerHTML= result;
-   console.log(age)
 }
     if (Gender1 == 1) {
         if (age >= 1 && age <= 3) {
