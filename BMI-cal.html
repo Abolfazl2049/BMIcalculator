@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>firstJs</title>
+    <link rel="stylesheet" href="BMI-cal.css">
+</head>
+<body>
+<form action="" class="form">
+<label for="gender" style="font-size: xx-large;">gender:</label>
+
+    <label for="male" class="male-l">MALE</label>
+    <input type="radio" name="myRadios" value="1" class="male" checked/>
+
+     <label for="female" class="female-l">FEMALE</label>
+     <input type="radio" name="myRadios" value="0" class="female"/>
+
+     <label for="age" class="age-l">age:</label>
+    <input type="number" name="age" id="age" class="age" placeholder="year">
+
+    <label for="weight" class="W-l">Weight:</label>
+    <input type="number"  placeholder="Kg" id="weight" >
+
+    <label for="height" class="H-l">Height:</label>
+    <input type="number"  placeholder="Cm" id="height" >
+    
+    <button type="button" onclick="myFunction()"class="button">Click to calculate</button>
+    <div id="p1">
+        <p style="margin-top: 2px;font-size: 18px">you're BMI is</p>
+        <p id="p2"></p>
+
+</form>
+
+<script src="BMi.js"></script>
+</body>
+</html>

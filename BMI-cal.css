@@ -1,0 +1,95 @@
+input {
+    height: 60px;
+    display: flex;
+    margin-right: 80rem;
+    width: 250px;
+    padding: 12px 16px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+label{
+    color: whitesmoke;
+}
+body {
+background-color: #30302a;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial;
+}
+#p1{
+    width: 270px;
+    height: 265px;
+    background-color: whitesmoke;
+    padding: 16px 15px;
+    font-size: 23px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 60px;
+}
+.form{
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    width: 500px;
+    height: 900px;
+    padding: 20px 25px;
+    
+}
+.male{
+    position: relative;
+    left: 250px;
+}
+.female{
+    position: relative;
+    bottom: 104px;
+    right: 12px;
+}
+#weight{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    top: 15px;
+}
+.age{
+    position: relative;
+    bottom: 130px;
+    width: 100px;
+    left: 120px;
+}
+.male-l{
+    position: relative;left: 180px;top: 55px; font-size: 18px;
+}
+.female-l{
+    position: relative;
+     bottom: 50px;
+     font-size: 18px;
+     
+}
+.age-l{
+    position: relative;
+    bottom: 60px;
+    font-size:x-large;
+}
+#height{
+    position: relative;
+    bottom: 260px;
+}
+.H-l{
+    position: relative;
+    bottom: 265px;
+}
+.W-l{
+    position: relative;
+    top: 15px;
+}
+.button{
+    width: 160px;
+    height: 40px;
+    margin-top: 20px;
+    position: relative;
+    bottom: 100px;
+}
+#p2{
+    width: 200px;
+    height: 300px;
+}
